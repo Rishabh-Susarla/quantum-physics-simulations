@@ -7,7 +7,7 @@ from scipy.optimize import brentq
 h_bar = 1 #Reduced planck's constant [J * s]
 L = 2 #Width of finite potential box [m]
 m = 1 #Mass of particle within infinite potential [kg] 
-V_0 = 50 #Potential energy of finite potential well
+V_0 = 50 #Potential energy of finite potential well [J]
 n_f = 1000 #Number of frames [1]
 n_x = 3000 #Number of x-intervals [1]
 x_max = 3 * L #x value range [m]
